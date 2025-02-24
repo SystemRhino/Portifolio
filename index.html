@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+          rel="stylesheet">
+
+    <!-- JavaScript Bibliotecas -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./index.js" defer></script>
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portifólio"/>
+    <meta name="keywords" content="System Rhino"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portifólio">
+    <meta property="og:description" content="Projects & Freelas">
+    <meta property="og:image" content="https://systemrhino.com/rhino_view.jpg">
+    <meta property="og:width" content="600">
+    <meta property="og:heigth" content="600">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://systemrhino.com">
+    <meta property="og:site_name" content="SystemRhino">
+    <meta property="twitter:card" content="summary_large_image">
+    <title>>/System Rhino</title>
+
+    <!-- Icons -->
+    <link rel="icon" href="./rhino.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./rhino.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./rhino.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./rhino.png">
+</head>
+<body>
+<main>
+    <!-- Header -->
+    <header id="heroHeader" class="hero-header">
+        <nav id="navBar" class="nav">
+            <div class="container">
+                <button type="button" id="hamburgerBtn" class="nav__hamburger-btn">
+                    <span class="nav__hamburger-top"></span>
+                    <span class="nav__hamburger-center"></span>
+                    <span class="nav__hamburger-bottom"></span>
+                </button>
+                <ul id="navList" class="nav__list">
+                    <li class="nav__list-item">
+                        <a class="nav__list-link active" href="#heroHeader">&lt;Inicio &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#services">&lt;Serviços &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#works">&lt;/Trabalhos &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#contact">&lt;Contato &sol;&gt;</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>  
+        <section class="header__container container">
+            <div class="header__left">
+                <span class="header__sup-text">Olá eu sou um programdor</span>
+                <h1 class="header__title">
+                    <span class="header__title-1" data-role="Full">Full</span>
+                    <span class="header__title-2" data-role="Stack">Stack</span>
+                </h1>
+                <p class="header__msg">Programdor FullStack com foco em apps web <p>venho desenvolvendo projetos tanto pessoais como freelancers!</p></p>
+                <a href="#" class="header__resume">Resume</a>
+            </div>
+            <div class="header__right">
+                <img src="./assets/illustrations/element.png" alt="Header section illustration"/>
+            </div>
+        </section>
+        <span class="header__bg"></span>
+    </header>
+
+    <!-- Serviços -->
+    <section id="services" class="section container">
+        <h2 class="section__title">Serviços</h2>
+
+        <div class="service-cards">
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/support.svg" alt="Support Illustration"/>
+                </span>
+                <h3 class="service-card__title">Implantação</h3>
+                <p class="service-card__msg"> Estou sempre disponível para resolver quaisquer problemas ou preocupações que você possa ter.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/design.svg" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">Design</h3>
+                <p class="service-card__msg">Especializado na criação de sites impressionantes, visualmente atraentes e fáceis de usar.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/developing.svg" alt="Deploy Illustration"/>
+                </span>
+                <h3 class="service-card__title">Em desenvolvimento</h3>
+                <p class="service-card__msg"> Ofereço serviços de desenvolvimento web personalizados, adaptados às suas necessidades específicas como profissional solo.</p>
+                <span class="service-card__bg"></span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Trabalhos -->
+    <section id="works" class="section container">
+        <h2 class="section__title">Meus Trabalhos</h2>
+        <div class="works">
+            <article class="work" onclick="window.location.href ='https://agendever.com'">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/agendever.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">AgendEver</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML/CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                    <span class="work__badge">Php</span>
+                </span>
+                </div>
+            </article>
+            <article class="work" onclick="window.location.href ='https://catallug.com'">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/catallug.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Cattalug</h3>
+                    <span class="work__badges">
+                        <span class="work__badge">HTML/CSS</span>
+                        <span class="work__badge">JavaScript</span>
+                        <span class="work__badge">Php</span>
+                </span>
+                </div>
+            </article>
+            <article class="work" onclick="window.location.href ='https://dontrustanyone.com'">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/dntt.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Dontrustanyone</h3>
+                    <span class="work__badges">
+                        <span class="work__badge">HTML/CSS</span>
+                        <span class="work__badge">JavaScript</span>
+                        <span class="work__badge">Php</span>
+                </span>
+                </span>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="section container">
+        <h2 class="section__title">Entre em contato</h2>
+        <div class="contact">
+            <form class="contact__form">
+                <div class="contact__field-wrapper">
+                    <label for="contactNameTxt">Nome:</label>
+                    <input id="contactNameTxt" type="text" placeholder="Qual seu nome??"/>
+                </div>
+                <div class="contact__field-wrapper">
+                    <label for="contactDescriptionTxt">Mensagem:</label>
+                    <textarea id="contactDescriptionTxt" placeholder="O que deseja?"></textarea>
+                </div>
+
+                <button type="submit" class="contact__submit-btn">Enviar</button>
+            </form>
+            <span class="contact__illustration">
+                <img src="./assets/illustrations/connect.svg" alt="Group of people connecting with each other"/>
+            </span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img class="icons" src="./assets/icons/github-brands.svg" alt="Github" onclick="window.location.href ='https://github.com/SystemRhino'">
+        <img class="icons" src="./assets/icons/instagram-brands.svg" alt="Github" width="30" height="30" onclick="window.location.href ='https://instagram.com/SystemRhino'">
+        <img class="icons" src="./assets/icons/youtube-brands.svg" alt="Github" width="30" height="30" onclick="window.location.href ='https://youtube.com/@SystemRhino'">
+    </main>
+</body>
+</html>
